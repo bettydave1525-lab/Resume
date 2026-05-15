@@ -429,6 +429,21 @@ color: white;
   max-width: 250px;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 768px) {
+  .pdf-grid {
+    max-width: 100%;
+    gap: 20px;
+  }
+
+  .pdf-card {
+    width: 85%;
+  }
+
+  .pdf-card img {
+    height: 200px;
+  }
+}
 @media only screen and (max-width: 768px) {
   #game {
     max-width: 95%;
